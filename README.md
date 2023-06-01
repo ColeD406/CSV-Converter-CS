@@ -8,13 +8,13 @@ The ClockShark Export Converter is a powerful application designed to streamline
 
 ## Features
 
-1. Mass Export CSV Import: The application allows users to import mass export CSV files generated from ClockShark effortlessly. This ensures a seamless integration of timecard data into the system.
+1. Mass Export CSV Import: The application allows users to import mass export CSV files generated from ClockShark. This ensures a much more simplifed integration of timecard data into the system.
 
 2. Custom Column Selection: Users can choose which columns from the imported CSV file they want to include in the new export. Additionally, they have the flexibility to specify new names for these columns, enabling personalized data organization.
 
 3. Time Structure Options: The application provides users with the ability to choose between the original structure for regular time, overtime, and double time, or combine them into a single pay component column. This empowers users to tailor the exported data based on their accounting software's requirements.
 
-4. Email Integration: The ClockShark Export Converter seamlessly integrates with email functionality. After the conversion process, the application sends an email with the modified CSV file attached. The email recipient is automatically retrieved from the saved email within the MongoDB database, enhancing convenience and efficiency.
+4. Email Integration: The ClockShark Export Converter integrates with email functionality. After the conversion process, the application sends an email with the modified CSV file attached. The email recipient is automatically retrieved from the saved email within the MongoDB database, enhancing convenience and efficiency.
 
 5. Once saved, the fields specified within the React page are mapped to the specified columns in the new CSV uploaded to the site, allowing for a saved template that accurately delivers a new csv conversion based upon the user's original spceifications when setting the export file up.
 
